@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "@entities": ["./entities"],
+        "@entities/*": ["./entities/*"],
+        "@features": ["./features"],
+        "@features/*": ["./features/*"],
+        "@shared/*": ["./shared/*"],
+        "@ui": ["./shared/ui"],
+        "@app/*": ["./app/*"],
+        "@pages": ["./pages"],
+        "@pages/*": ["./pages/*"],
+        "@widgets/*": ["./widgets/*"]
+      }
+    }
+  }
